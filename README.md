@@ -14,7 +14,7 @@ The app is built using **Node.js**, **Express**, and **Passport.js**, and can be
 
 Clone this repository to your local machine using Git:
 
-    git clone <repository-url>
+    git clone https://github.com/faetschi/auth-app.git
     cd auth-app
 
 ### **2. Build and Run the App using Docker**
