@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+  auth-app:
+    build: .
+    ports:
+      - "3000:3000"
+    environment:
+      - GOOGLE_CLIENT_ID=your_google_client_id
+      - GOOGLE_CLIENT_SECRET=your_google_client_secret
